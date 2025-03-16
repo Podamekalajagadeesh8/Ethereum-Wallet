@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethereum Wallet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ethereum Wallet</h1>
+  <button id="connect">Connect Wallet</button>
+  <p>Wallet Address: <span id="walletAddress">Not Connected</span></p>
+  <p>Balance: <span id="balance">0 ETH</span></p>
+
+  <h2>Send ETH</h2>
+  <input type="text" id="toAddress" placeholder="Recipient Address">
+  <input type="text" id="amount" placeholder="Amount (ETH)">
+  <button id="sendEth">Send ETH</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
